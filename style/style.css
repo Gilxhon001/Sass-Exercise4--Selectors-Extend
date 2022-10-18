@@ -1,0 +1,48 @@
+.container, .container-subtitle {
+  border: 0.0625rem solid #cc0000;
+  padding: 0.3125rem;
+}
+.container .container-subtitle, .container-subtitle .container-subtitle, .container .container-title, .container-subtitle .container-title {
+  color: green;
+  text-align: center;
+  width: fit-content;
+  margin: 2rem auto 0;
+}
+.container-title {
+  text-decoration: underline solid blue 0.0625rem;
+  text-underline-offset: 0.5rem;
+}
+.container-subtitle {
+  padding: 1rem;
+}
+.container .article, .container-subtitle .article {
+  display: flex;
+  flex-direction: row;
+  margin: 0.9375rem;
+}
+.container .article-card, .container-subtitle .article-card {
+  color: green;
+  border: 0.0625rem solid blue;
+  font-size: 1.5625rem;
+  text-align: center;
+  padding: 1.25rem;
+  width: 100%;
+}
+.container .article-card_blue, .container-subtitle .article-card_blue {
+  color: #3333ff;
+  border: 0.0625rem solid green;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1.25rem;
+  width: 100%;
+}
+.container .article-card_red, .container-subtitle .article-card_red {
+  color: #ff3333;
+  border: 0.0625rem solid green;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1.25rem;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
